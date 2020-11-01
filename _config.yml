@@ -100,7 +100,9 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: landscape
 
-# Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
+# Deployment
 deploy:
-  type: ''
+  type: git
+  repository: git@github.com:shushu1234/shushu1234.github.io.git
+  branch: gh-pages
