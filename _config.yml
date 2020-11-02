@@ -97,7 +97,8 @@ deploy:
   branch: gh-pages
 
 
-theme: typography
+#theme: typography
+theme: journal
 
 highlight:
   enable: false # we will use the prism plugin instead

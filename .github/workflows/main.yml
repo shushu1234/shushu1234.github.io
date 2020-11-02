@@ -32,7 +32,8 @@ jobs:
         npm i -g hexo-cli # 安装hexo
         npm i
         npm uninstall --save hexo-generator-category # 此处我们使用 hexo-generator-category-enhance
-        npm install --save hexo-renderer-jade hexo-generator-archive hexo-generator-category-enhance hexo-generator-feed hexo-generator-tag
+        #npm install --save hexo-renderer-jade hexo-generator-archive hexo-generator-category-enhance hexo-generator-feed hexo-generator-tag
+	npm install --save hexo-renderer-ejs hexo-generator-archive hexo-generator-category-enhance hexo-generator-feed hexo-generator-index hexo-generator-tag
         npm install --save hexo-prism-plugin # 语法高亮支持
         cd themes/typography/ # 主题目录 我这里就是themes/landscape
         npm i # 安装子主题
